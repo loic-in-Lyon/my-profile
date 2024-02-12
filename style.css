@@ -1,0 +1,86 @@
+body{
+	background-color: #FEFCFB;
+	color: #582D1D;
+	margin: 112px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    grid-row-gap: 112px;
+}
+
+h1, h2{
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: 1px;
+}
+
+h1{
+	font-size: 64px;
+    -webkit-mask-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text !important;
+    background: linear-gradient(to bottom right, #BDEE63, #F76B15);
+    width: fit-content;
+}
+h2{
+	font-size: 32px;
+	font-weight: 500;
+    line-height: 0.4;
+}
+p{
+	font-family: 'Lora', serif;
+	font-size: 20px;
+	font-weight: lighter;
+}
+a{
+	font-family: 'Roboto', sans-serif;
+	width: fit-content;
+	font-size: 20px;
+	text-decoration: none;
+	color: white;
+	display: inline-block; /* Permet au lien de contenir un padding */
+	background: #E54D2E;
+	padding: 10px 20px; /* Ajustez selon l'espace désiré autour du texte */
+	border-radius: 5px; /* Bords arrondis pour adoucir l'apparence */
+	text-decoration: none; /* Supprime le soulignement par défaut des liens */
+	font-weight: bold; /* Rend le texte plus visible */
+	transition: all 200ms ease;
+}
+a:hover {
+	background: #DD4425;
+  /* Un léger changement de couleur pour l'effet de survol */
+}
+
+img	{
+	border-radius: 50%;
+}
+
+.header {
+	display: flex;
+	flex-direction: row;
+	column-gap: 80px;
+	margin-bottom: 112px;
+}
+.content {
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }
+.basket-section{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+    }
+ .basket-section .card{
+ 	margin-left: -200px;
+ }
+.card{
+    width: -webkit-fill-available;
+    max-width: 901px;
+	background: #FFF7ED;
+	border-radius: 16px;
+	padding: 30px;
+	height: fit-content;
+	box-shadow: rgba(50, 50, 93, 0.1) 0px 15px 35px;
+}
